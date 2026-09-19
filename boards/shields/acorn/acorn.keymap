@@ -84,7 +84,7 @@
             >;
         };
 
-        mouse {
+        mice {
             bindings = <
 &trans  &trans          &mmv MOVE_UP    &trans           &mkp MB1  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB2  &trans    &trans  &trans  &trans  &trans  &trans  &trans
