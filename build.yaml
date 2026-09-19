@@ -45,7 +45,7 @@ include:
   # - board: xiao_ble
   #   shield: hana_peripheral_right
     # Acorn (Corne v3.1 Wireless Mod)
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: acorn_central_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
