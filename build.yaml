@@ -45,16 +45,16 @@ include:
   # - board: xiao_ble
   #   shield: hana_peripheral_right
     # Acorn (Corne v3.1 Wireless Mod)
-  - board: nice_nano//zmk
-    shield: acorn_central_dongle
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  # - board: nice_nano//zmk
+  #   shield: acorn_central_dongle
+  #   snippet: studio-rpc-usb-uart
+  #   cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano//zmk
     shield: acorn_central_left
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-  - board: nice_nano//zmk
-    shield: acorn_peripheral_left
+  # - board: nice_nano//zmk
+  #   shield: acorn_peripheral_left
   - board: nice_nano//zmk
     shield: acorn_peripheral_right
     # Coral v1 (Wired w/ RP-Zero)
@@ -64,3 +64,4 @@ include:
   #   cmake-args: -DCONFIG_ZMK_STUDIO=y
   # - board: rp2040_zero
   #   shield: coral_right
+  
